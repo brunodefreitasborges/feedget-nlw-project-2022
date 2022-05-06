@@ -7,6 +7,8 @@ Um widget de feedback com função de tirar um screenshot da tela do usuário e 
 ## TecStack 
 
 ### Frontend em React, Typescript e TailwindCSS.
+### Backend em NodeJS, Typescript, Prisma(PostgresSQL), Express. Refatorado no SOLID.
+### Mobile com React Native.
 
 Projeto em desenvolvimento.
  
