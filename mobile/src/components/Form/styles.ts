@@ -32,13 +32,19 @@ export const styles = StyleSheet.create({
       marginRight: 8,
   },
   input: {
+      width: 280,
       height: 112,
       padding: 12,
-      marginBottom: 8,
+      marginBottom: 12,
       borderRadius: 4,
       borderWidth: 1,
       borderColor: theme.colors.stroke,
       color: theme.colors.text_primary,
       fontFamily: theme.fonts.regular
-  }
+  },
+  footer: {
+    flexDirection: 'row',
+    marginBottom: 16,
+    
+}
 });
