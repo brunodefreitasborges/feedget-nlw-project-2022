@@ -6,9 +6,14 @@ Um widget de feedback com função de tirar um screenshot da tela do usuário e 
 
 ## TecStack 
 
-### Frontend em React, Typescript e TailwindCSS.
-### Backend em NodeJS, Typescript, Prisma(PostgresSQL), Express. Refatorado no SOLID.
-### Mobile com React Native.
+### Frontend com React, Typescript e TailwindCSS.
+### Backend com NodeJS, Typescript, Prisma(PostgresSQL), Express. Refatorado nos moldes SOLID.
+### Mobile com React Native, Expo.
 
-Projeto em desenvolvimento.
+## Funcionamento
+
+O widget inicia como um pequeno ícone no canto da tela. Ao ser clicado, ele expande, oferecendo ao usuário as três opções de feedback: Erro, Ideia ou Outro.
+É oferecido ao usuário um campo de texto para descrever o feedback, juntamente com a funcionalidade de tirar e anexar um screenshot da tela. Ao clicar em 'Enviar', os dados contidos nos campos de texto e a imagem do screenshot são enviadas para o backend, que grava estes dados em um banco (Postgres) e envia um email para o administrador do site/app com o feedback do usuário.
+
+
  
